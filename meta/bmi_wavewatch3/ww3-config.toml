@@ -1,0 +1,4 @@
+[wavewatch3]
+date = "{{ date }}"
+grid = "{{ grid }}"
+source = "{{ source }}"

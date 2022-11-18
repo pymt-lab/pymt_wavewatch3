@@ -1,0 +1,21 @@
+date:
+  name: Date
+  description: Date as an isoformatted string ('YYYY-MM-DD').
+  value:
+    type: string
+    default: "2010-05-22"
+    units: 1
+grid:
+  name: Grid region
+  description: "WAVEWATCH III grid region"
+  value:
+    type: string
+    default: "glo_30m"
+    units: 1
+source:
+  name: Source
+  description: "Source from which to download data from"
+  value:
+    type: string
+    default: "multigrid"
+    units: 1
