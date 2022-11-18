@@ -1,2 +1,2 @@
 
-bmi_wavewatch3
+bmi-wavewatch3
