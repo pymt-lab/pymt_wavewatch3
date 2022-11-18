@@ -1,0 +1,4 @@
+name: pymt_wavewatch3
+language: python
+package: pymt_wavewatch3
+class: bmi_wavewatch3
