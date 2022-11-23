@@ -53,4 +53,4 @@ jobs:
       - name: Test
         run: |
           python -c 'import pymt_wavewatch3'
-          bmi-test pymt_wavewatch3.bmi:bmi_wavewatch3 -vvv
+          bmi-test pymt_wavewatch3.bmi:WaveWatch3 -vvv

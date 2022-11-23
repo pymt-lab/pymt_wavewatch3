@@ -20,11 +20,11 @@ requirements:
     - cython
     - numpy 1.11.*
     - model_metadata
-    - bmi_wavewatch3 
+    - bmi-wavewatch3 
   run:
     - python
     - {{ pin_compatible('numpy') }}
-    - bmi_wavewatch3 
+    - bmi-wavewatch3 
 
 test:
   requires:
@@ -33,8 +33,8 @@ test:
   imports:
     - pymt_wavewatch3
   commands:
-    - config_file=$(mmd-stage bmi_wavewatch3 . > MANIFEST && mmd-query bmi_wavewatch3 --var=run.config_file.path)
-    - bmi-test pymt_wavewatch3.bmi:bmi_wavewatch3 --config-file=$config_file --manifest=MANIFEST -v
+    - config_file=$(mmd-stage WaveWatch3 . > MANIFEST && mmd-query WaveWatch3 --var=run.config_file.path)
+    - bmi-test pymt_wavewatch3.bmi:WaveWatch3 --config-file=$config_file --manifest=MANIFEST -v
 
 about:
   summary: Python package that wraps the pymt_wavewatch3 BMI.

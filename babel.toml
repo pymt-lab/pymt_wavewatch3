@@ -1,4 +1,4 @@
-[library."bmi_wavewatch3"]
+[library."WaveWatch3"]
 language = "python"
 library = "bmi_wavewatch3"
 header = ""
@@ -15,7 +15,7 @@ extra_compile_args = []
 
 [package]
 name = "pymt_wavewatch3"
-requirements = ["bmi_wavewatch3"]
+requirements = ["bmi-wavewatch3"]
 
 [info]
 github_username = "pymt-lab"

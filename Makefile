@@ -58,7 +58,7 @@ pretty:
 	black setup.py pymt_wavewatch3
 
 test: ## run tests quickly with the default Python
-	bmi-test pymt_wavewatch3.bmi:bmi_wavewatch3 -vvv
+	bmi-test pymt_wavewatch3.bmi:WaveWatch3 -vvv
 
 test-all: ## run tests on every Python version with tox
 	tox

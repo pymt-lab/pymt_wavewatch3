@@ -6,7 +6,7 @@ from setuptools import Extension, find_packages, setup
 
 entry_points = {
     "pymt.plugins": [
-        "bmi_wavewatch3=pymt_wavewatch3.bmi:bmi_wavewatch3",
+        "WaveWatch3=pymt_wavewatch3.bmi:WaveWatch3",
     ]
 }
 

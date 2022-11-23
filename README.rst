@@ -33,11 +33,11 @@ PyMT plugin for WAVEWATCH III
 
 
 
-============== ========================================
-Component      PyMT
-============== ========================================
-bmi_wavewatch3 `from pymt.models import bmi_wavewatch3`
-============== ========================================
+========== ====================================
+Component  PyMT
+========== ====================================
+WaveWatch3 `from pymt.models import WaveWatch3`
+========== ====================================
 
 ---------------
 Installing pymt
@@ -79,7 +79,7 @@ be installed with:
 
 .. code::
 
-  conda install bmi_wavewatch3
+  conda install bmi-wavewatch3
 
 To install `pymt_wavewatch3`,
 
